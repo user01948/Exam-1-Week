@@ -1,0 +1,133 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.dubai_img
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.516)), url(./uae-4-2048x1367\ 2.png);
+    height: 700px;
+}
+.bgheader
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.header
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header_list
+{
+    display: flex;
+    gap: 50px;
+}
+.header button
+{
+    padding: 10px 30px;
+    background-color: #07AF91;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.list_header2
+{
+    color: white;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.list_header2 h1
+{
+    font-size: 43px;
+}
+.list_header2 h2
+{
+    font-weight: 400;
+}
+.list_header2 button
+{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #61B5E4;
+    font-size: 18px;
+    width: 15%;
+}
+.fa-bars
+{
+    display: none;
+}
+.list_header2 h3
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px)
+{
+    .header_list
+    {
+        display: none;
+    }
+    .fa-bars
+    {
+    display: block;
+    padding: 10px 10px;
+    background-color: white;
+    color: #07AF91;
+    border-radius: 5px;
+    }
+    .list_header2
+    {
+        text-align: center;
+        row-gap: 70px;
+        padding: 20px;
+    }
+    .list_header2 h1
+    {
+        font-size: 36px;
+    }
+    .list_header2 button
+    {
+        width: 70%;
+        margin: auto;
+    }
+    .list_header2 h3
+    {
+        display: block;
+    }
+    .list_header2 h2
+    {
+        display: none;
+    }
+}
