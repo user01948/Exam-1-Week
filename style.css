@@ -184,6 +184,41 @@
     justify-content: space-between;
     padding-top: 50px;
 }
+.sec4
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.658)), url(./startup\ 3.png);
+    height: 604px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.children
+{
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    row-gap: 20px;
+}
+.children h1
+{
+    padding: 5px;
+    background-color: #07AF91;
+    width: 80%;
+}
+.children button
+{
+    padding: 15px 30px;
+    background-color: #61B5E4;
+    border: none;
+    border-radius: 10px;
+}
 
 
 
