@@ -648,6 +648,25 @@
     display: flex;
     justify-content: space-between;
 }
+.sec11
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box
+{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 50px;
+}
+.s11_list
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
 
 
 
