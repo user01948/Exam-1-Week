@@ -728,6 +728,28 @@
     align-items: center;
     justify-content: space-between;
 }
+.sec15
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.s15grid
+{
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 100px 100px;
+    margin-top: 30px;
+    gap: 10px;
+}
+.cardd
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 15px rgb(207, 207, 207);
+    border-radius: 10px;
+}
 
 
 
@@ -1038,5 +1060,25 @@
     .prof
     {
         width: 90%;
+    }
+    .sec15
+    {
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        gap: 20px;
+    }
+    .s15grid
+    {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        grid-template-rows: 100px 100px 100px 100px;
+        gap: 10px;
     }
 }   
