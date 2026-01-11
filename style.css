@@ -554,7 +554,40 @@
 {
     z-index: 1;
 }
-
+.sec9
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.s9_item1
+{
+    box-shadow: 0px 0px 15px rgb(213, 213, 213);
+    width: 372px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 35px;
+    border-radius: 10px;
+}
+.it1_list
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.wrapdiv
+{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
 
 
@@ -787,5 +820,9 @@
         top: 30px;
         left: 30px;
         width: 300px;
+    }
+    .sec9
+    {
+        text-align: center;
     }
 }   
