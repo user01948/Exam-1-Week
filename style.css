@@ -788,6 +788,33 @@
 {
     font-size: 45px;
 }
+.sec17
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.mena
+{
+    width: 380px;
+    height: 379px;
+    box-shadow: 0px 0px 15px rgb(178, 178, 178);
+    border-radius: 15px;
+}
+.mena_list
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.flexbox
+{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
@@ -1122,5 +1149,15 @@
     .bgimage_sec16
     {
         padding: 20px;
+    }
+    .sec17
+    {
+        padding: 20px;
+        text-align: center;
+    }
+    .flexbox
+    {
+        flex-direction: column;
+        row-gap: 30px;
     }
 }   
