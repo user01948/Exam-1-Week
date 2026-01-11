@@ -667,6 +667,28 @@
     flex-direction: column;
     row-gap: 50px;
 }
+.Sec12
+{
+    max-width: 1200px;
+    margin: auto;
+    height: 402px;
+    box-shadow: 0px 0px 15px rgb(213, 213, 213);
+    margin-top: 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.paa
+{
+    padding: 50px;
+}
+.s12_list
+{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
 
 
 
@@ -918,5 +940,39 @@
     {
         padding: 20px 70px;
         margin-left: 30px;
+    }
+    .box img
+    {
+        width: 266px;
+        height: 208px;
+    }
+    .box
+    {
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+    }
+    .sec11 h1
+    {
+        text-align: center;
+    }
+    .Sec12
+    {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        padding: 20px;
+        height: auto;
+        text-align: center;
+    }
+    .paa img
+    {
+        padding: 0px;
+        width: 359px;
+        height: 400px;
+    }
+    .paa
+    {
+        padding: 0px;
     }
 }   
