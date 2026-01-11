@@ -422,7 +422,7 @@
     align-items: center;
     padding: 15px;
     border-bottom: 1px solid rgb(195, 195, 195);
-    box-shadow: 0px 0px 15px rgb(196, 196, 196);
+    box-shadow: 0px 0px 15px rgb(213, 213, 213);
     border-radius: 10px;
 }
 .row1 p
@@ -445,6 +445,114 @@
 .nedeli
 {
     display: none;
+}
+.bg_img_cabut
+{
+    background-image: url(./Group\ 796.png);
+    height: 500px;
+}
+.sec8
+{
+    max-width: 1200px;
+    margin: auto;
+    height: 90%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pop
+{
+    font-size: 40px;
+}
+.ch
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.ch button
+{
+    padding: 15px 30px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: #07AF91;
+    color: white;
+}
+.rr
+{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+}
+.rr div
+{
+    width: 205px;
+    height: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 2;
+}
+.pos99
+{
+    position: absolute;
+    top: 30px;
+    left: 170px;
+    z-index: 0;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 205px 205px;
+    grid-template-rows: 111px 111px 113px;
+    position: relative;
+    gap: 20px;
+}
+.poss
+{
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    z-index: 0;
+}
+.it1
+{
+    background-color: white;
+    margin: auto;
+    padding: 35px 20px;
+    border-radius: 10px;
+}
+.it2
+{
+    background-color: white;
+    margin: auto;
+    padding: 25px 35px;
+    border-radius: 10px;
+}
+.it3
+{
+    background-color: white;
+    margin: auto;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+.it4
+{
+    background-color: white;
+    margin: auto;
+    padding: 15px 55px;
+    border-radius: 10px;
+}
+.idora
+{
+    z-index: 1;
 }
 
 
@@ -643,4 +751,41 @@
     {
         font-size: 14px;
     }
-}
+    .sec8
+    {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .idora
+    {
+        padding: 10px 30px;
+    }
+    .idora svg
+    {
+        width: 90%;
+    }
+    .grid
+    {
+        display: grid;
+        grid-template-columns: 121px 121px;
+        grid-template-rows: 66px 66px;
+        gap: 20px;
+    }
+    .bg_grid
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .bg_img_cabut
+    {
+        height: 850px;
+    }
+    .poss
+    {
+        top: 30px;
+        left: 30px;
+        width: 300px;
+    }
+}   
